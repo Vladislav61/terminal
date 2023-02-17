@@ -1,0 +1,26 @@
+  292  pwd
+  293  mkdir n_1
+  294  cd n_1
+  295  mkdir nw_1 nw_2 nw_3
+  296  cd nw_1
+  297  touch f1.txt f2.txt f3.txt
+  298  nano fil.json
+  299  nano fil2.json
+  300  mkdir nww_1 nww_2 nww_3
+  301  ls
+  302  cat >f1.txt
+  303  cd ..
+  304  cd nw_1
+  305  mv fil.json fil2.json nww_1/
+  306  cp f2.txt f3.txt nww_2
+  307  find . -iname fil.json
+  308  less +F f1.txt
+  309  head -n2 f1.txt
+  310  tail -n2 f1.txt
+  311  less f1.txt
+  312  date
+  313  curl http://162.55.220.72:5005
+  314  nano scr.sh
+  315  bash scr.sh
+  316  history
+  317  history >>T.txt
