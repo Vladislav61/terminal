@@ -23,4 +23,4 @@ GitBash curl http://162.55.220.72:5005
 GitBash nano scr.sh
 GitBash bash scr.sh
 GitBash history
-GitBash history >>Trinkov dz.txt
+GitBash history >>Trinkov.txt
