@@ -1,26 +1,65 @@
-GitBash pwd
-GitBash mkdir n_1 
-GitBash cd n_1 
-GitBash mkdir nw_1 nw_2 nw_3 
-GitBash cd nw_1
-GitBash touch f1.txt f2.txt f3.txt
-GitBash nano fil.json
-GitBash nano fil2.json
-GitBash mkdir nww_1 nww_2 nww_3
-GitBash ls
-GitBash cat >f1.txt
-GitBash cd ..
-GitBash cd nw_1
-GitBash mv fil.json fil2.json nww_1/
-GitBash cp f2.txt f3.txt nww_2
-GitBash find . -iname fil.json
-GitBash less +F f1.txt
-GitBash head -n2 f1.txt
-GitBash tail -n2 f1.txt
-GitBash less f1.txt
-GitBash date
-GitBash curl http://162.55.220.72:5005
-GitBash nano scr.sh
-GitBash bash scr.sh
-GitBash history
-GitBash history >>Trinkov.txt
+1) Посмотреть где я
+2) Создать папку
+3) Зайти в папку
+4) Создать 3 папки
+5) Зайти в любоую папку
+6) Создать 5 файлов (3 txt, 2 json)
+7) Создать 3 папки
+8. Вывести список содержимого папки
+9) + Открыть любой txt файл
+10) + написать туда что-нибудь, любой текст.
+11) + сохранить и выйти.
+12) Выйти из папки на уровень выше
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+15) Найти файл по имени
+16) просмотреть содержимое в реальном времени
+17) вывести несколько первых строк из текстового файла
+18) вывести несколько последних строк из текстового файла
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+20) вывести дату и время
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+
+1 pwd
+2 mkdir n_1 
+3 cd n_1 
+4 mkdir nw_1 nw_2 nw_3 
+5 cd nw_1
+6 touch f1.txt f2.txt f3.txt
+6 nano fil.json
+6 nano fil2.json
+7 mkdir nww_1 nww_2 nww_3
+8 ls
+9 10 11 
+cat >f1.txt
+12 cd ..
+ cd nw_1
+13 mv fil.json fil2.json nww_1/
+14 cp f2.txt f3.txt nww_2
+15 find . -iname fil.json
+16 less +F f1.txt
+17 head -n2 f1.txt
+18 tail -n2 f1.txt
+19 less f1.txt
+20 date
+21 curl http://162.55.220.72:5005
+22 nano scr.sh
+        #!/bin/bash
+        cd nww_3
+        mkdir nn_1 nn_2 nn_3
+        cd nn_1
+        touch ff1.txt ff2.txt ff3.txt
+        touch ff4.json ff5.json
+        mkdir nnn_1 nnn_2 nnn_3
+        ls
+        mv ff1.txt ff2.txt nnn_1
+ bash scr.sh
+ history
+ history >>Trinkov.txt
